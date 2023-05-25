@@ -59,10 +59,7 @@ By combining these elements, the setup file generated with Inno Setup automates 
 
 ### 💙 Contributing
 
-PR's are welcome !
-
-Found a Bug ? Create an Issue.
-
+Pull requests are welcome. If you find any bugs, please create an issue.
 
 ### 💖 Like this project ?
 
