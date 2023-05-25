@@ -42,6 +42,7 @@ By combining these elements, the setup file generated with Inno Setup automates 
 
 - Open `create_installer_.iss` file (You will need [Inno Setup Application](https://jrsoftware.org/isdl.php#stable) to open and compile this file)
 - Verify all the parameters as shown in the Contents
+- Move your R Shiny app inside `app` folder and delete the existing `app.R` file.
 - Click on Compile to create Setup exe file 
 - The Setup.exe file will be stored in the same directory inside `Output` folder 
  <img width="557" alt="image" src="https://github.com/PawanRamaMali/Shiny-Windscape/assets/11299574/bd4836dd-62a8-4ec9-b9dd-976d54da7ab8">
