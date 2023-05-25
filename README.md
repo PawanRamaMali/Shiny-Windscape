@@ -2,7 +2,7 @@
 Build a exe setup file for R Shiny in Windows
 
 
-### How it works
+### ✨ Contents 
 
 **Inno Setup Configuration:**
 - The Inno Setup file `create_installer_.iss` contains configuration settings such as the application name, version, default installation directory, program group name, compression options, and more.
@@ -31,9 +31,52 @@ Build a exe setup file for R Shiny in Windows
 
 By combining these elements, the setup file generated with Inno Setup automates the installation process for the R Shiny application. It copies the necessary files, creates shortcuts, and sets up the environment for executing the R Shiny application. Users can then run the setup file to install the application on their system with ease.
 
-A demo setup file is added to current project's [release](https://github.com/PawanRamaMali/Shiny-Windscape/releases/tag/v1.0). It will install the Faithful Geyser R Shiny app.
+### 📺 How to Create Setup.exe Installer
 
-[Demo Setup File Download](https://github.com/PawanRamaMali/Shiny-Windscape/releases/download/v1.0/faithful_setup_file_v_1.0.exe) 
+- Open `create_installer_.iss` file (You will need [Inno Setup Application](https://jrsoftware.org/isdl.php#stable) to open and compile this file
+- Verify all the parameters as shown in the Contents
+- Click on Compile to create Setup exe file 
+- The Setup.exe file will be stored in the same directory inside `Output` folder 
+ <img width="557" alt="image" src="https://github.com/PawanRamaMali/Shiny-Windscape/assets/11299574/bd4836dd-62a8-4ec9-b9dd-976d54da7ab8">
+
+- A demo setup file is added to current project's [release](https://github.com/PawanRamaMali/Shiny-Windscape/releases/tag/v1.0). It will install the Faithful Geyser R Shiny app.
+- [Demo Setup File Download](https://github.com/PawanRamaMali/Shiny-Windscape/releases/download/v1.0/faithful_setup_file_v_1.0.exe) 
+
+
+### 📺 How to Run the App
+
+- Install the program using the exe file created from previous step.
+- Configure the setup like deciding where you want the program to be installed. 
+- After sucessfull installation, the application will be accessible from the Windows Start Menu.
+- Go to Windows select the App and it will launch in the default broswer of the current Operating System. 
+
+### 📺 How to Check the logs
+
+- Got the installed program directory.
+- Open the logs folder.
+- Select the latest log file based on its name which will specify the date and time.
+- This log file and be used to debug any problems with the application.
+
+### 💙 Contributing
+
+PR's are welcome !
+
+Found a Bug ? Create an Issue.
+
+
+### 💖 Like this project ?
+
+Leave a ⭐ If you think this project is cool.
+
+### 🍁 Licence
+
+* [MIT License](LICENSE)
+
+### 👨‍💻 Authors
+
+* [Pawan Rama Mali](https://github.com/PawanRamaMali) 
+
+### ✨ Credits
 
 - [Inno Setup Application Download](https://jrsoftware.org/isdl.php#stable)
 - [Inno Setup Github](https://github.com/jrsoftware/issrc)
