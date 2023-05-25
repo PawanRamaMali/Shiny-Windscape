@@ -1,6 +1,13 @@
 # Shiny-Windscape
 Build a exe setup file for R Shiny in Windows
 
+### ✨ Objective 
+
+To share wonderful R Shiny Apps with following user types: 
+1. You dont want to explain to user how to use and configure R or R Shiny 
+2. You want App to start just like any other Windows App
+3. You want to run R Shiny App in complete offline environment
+4. To package R Shiny App along with all required dependencies inside a single executable file
 
 ### ✨ Contents 
 
@@ -33,7 +40,7 @@ By combining these elements, the setup file generated with Inno Setup automates 
 
 ### 📺 How to Create Setup.exe Installer
 
-- Open `create_installer_.iss` file (You will need [Inno Setup Application](https://jrsoftware.org/isdl.php#stable) to open and compile this file
+- Open `create_installer_.iss` file (You will need [Inno Setup Application](https://jrsoftware.org/isdl.php#stable) to open and compile this file)
 - Verify all the parameters as shown in the Contents
 - Click on Compile to create Setup exe file 
 - The Setup.exe file will be stored in the same directory inside `Output` folder 
