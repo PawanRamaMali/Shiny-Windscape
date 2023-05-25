@@ -45,17 +45,17 @@ By combining these elements, the setup file generated with Inno Setup automates 
 
 ### 📺 How to Run the App
 
-- Install the program using the exe file created from previous step.
-- Configure the setup like deciding where you want the program to be installed. 
-- After sucessfull installation, the application will be accessible from the Windows Start Menu.
-- Go to Windows select the App and it will launch in the default broswer of the current Operating System. 
+- Install the program using the generated Setup.exe file.
+- Configure the setup options, such as the installation directory.
+- After successful installation, the application will be accessible from the Windows Start Menu.
+- Select the app from the Start Menu to launch it in the default browser. 
 
 ### 📺 How to Check the logs
 
-- Got the installed program directory.
-- Open the logs folder.
-- Select the latest log file based on its name which will specify the date and time.
-- This log file and be used to debug any problems with the application.
+- Go to the installed program directory.
+- Open the "logs" folder.
+- Select the latest log file based on its name, which specifies the date and time.
+- Use the log file to debug any application problems if needed.
 
 ### 💙 Contributing
 
